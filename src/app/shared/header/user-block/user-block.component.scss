@@ -1,0 +1,23 @@
+:host {
+  width: 385px;
+  height: 60px;
+  background-color: #00b3be;
+}
+
+.unauthorized-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.unauthorized-text {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+
+  a {
+    color: #4a4a4a;
+    cursor: pointer;
+  }
+}

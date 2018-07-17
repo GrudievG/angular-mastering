@@ -1,0 +1,21 @@
+:host {
+  position: relative;
+  display: flex;
+  align-items: flex-end;
+  width: 450px;
+  height: 60px;
+}
+
+.search-input {
+  flex-grow: 1;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #4a4a4a;
+  padding: 8px 0 8px 35px;
+}
+
+.input-prefix {
+  position: absolute;
+  bottom: 5px;
+  color: #4a4a4a;
+}

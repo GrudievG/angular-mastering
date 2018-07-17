@@ -1,0 +1,11 @@
+:host {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.app-logo {
+  margin-left: 40px;
+}
