@@ -1,0 +1,19 @@
+<mat-card class="advert-item">
+  <mat-card-header>
+    <mat-card-title>{{advert.theme}}</mat-card-title>
+  </mat-card-header>
+  <div class="img-container">
+    <img mat-card-image [src]="advert.images[0]?.file" alt="Product image">
+  </div>
+  <mat-card-content>
+    <p *ngIf="advert.text; else emptyBlock">
+      {{advert.text}}
+    </p>
+    <ng-template #emptyBlock>
+      <div class="empty-block"></div>
+    </ng-template>
+  </mat-card-content>
+  <mat-card-actions align="end">
+    <mat-icon>visibility</mat-icon>
+  </mat-card-actions>
+</mat-card>

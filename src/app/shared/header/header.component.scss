@@ -1,9 +1,14 @@
 :host {
   position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  z-index: 10;
+  background-color: #ffffff;
 }
 
 .app-logo {

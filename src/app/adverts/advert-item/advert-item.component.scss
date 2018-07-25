@@ -1,0 +1,25 @@
+.advert-item {
+  width: 312px;
+  margin: 5px;
+  height: 250px;
+}
+
+.img-container {
+  margin-top: 24px;
+  height: 146px;
+}
+
+img {
+  height: 155px;
+  object-fit: cover;
+}
+
+p {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.empty-block {
+  height: 16px;
+}
