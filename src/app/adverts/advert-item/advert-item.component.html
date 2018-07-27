@@ -3,7 +3,10 @@
     <mat-card-title>{{advert.theme}}</mat-card-title>
   </mat-card-header>
   <div class="img-container">
-    <img mat-card-image [src]="advert.images[0]?.file" alt="Product image">
+    <img mat-card-image [src]="advert.images[0].file" *ngIf="advert.images.length; else noImg">
+    <ng-template #noImg>
+      <img mat-card-image src="assets/img/no-img.png">
+    </ng-template>
   </div>
   <mat-card-content>
     <p *ngIf="advert.text; else emptyBlock">

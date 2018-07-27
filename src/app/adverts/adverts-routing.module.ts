@@ -6,7 +6,7 @@ import {AdvertDetailComponent} from './advert-detail/advert-detail.component';
 const routes: Routes = [
   { path: '', redirectTo: 'list', pathMatch: 'full' },
   { path: 'list', component: AdvertListComponent },
-  { path: 'detail/:id', component: AdvertDetailComponent }
+  { path: 'detail/:pk', component: AdvertDetailComponent }
 ];
 
 @NgModule({

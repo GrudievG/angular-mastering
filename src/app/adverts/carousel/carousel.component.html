@@ -1,0 +1,16 @@
+<div class="carousel-container">
+  <div class="carousel-control left"
+       *ngIf="imgIndex > 0"
+       (click)="goToPrevImage()">
+    <mat-icon>keyboard_arrow_left</mat-icon>
+  </div>
+  <div class="carousel-control right"
+       *ngIf="imgIndex < images?.length - 1"
+       (click)="goToNextImage()">
+    <mat-icon>keyboard_arrow_right</mat-icon>
+  </div>
+  <img *ngIf="images?.length; else noImg" [src]="images[imgIndex].file">
+  <ng-template #noImg>
+    <img src="assets/img/no-img.png">
+  </ng-template>
+</div>

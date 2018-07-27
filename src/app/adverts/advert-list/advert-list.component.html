@@ -1,1 +1,4 @@
-<app-advert-item *ngFor="let advert of advertList" [advert]="advert"></app-advert-item>
+<app-advert-item
+  *ngFor="let advert of advertList"
+  [advert]="advert"
+  routerLink="../detail/{{advert.pk}}"></app-advert-item>

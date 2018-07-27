@@ -2,6 +2,7 @@
   width: 312px;
   margin: 5px;
   height: 250px;
+  cursor: pointer;
 }
 
 .img-container {
@@ -11,6 +12,7 @@
 
 img {
   height: 155px;
+  width: calc(100% + 48px);
   object-fit: cover;
 }
 

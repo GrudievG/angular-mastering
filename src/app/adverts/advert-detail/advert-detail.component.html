@@ -1,3 +1,4 @@
-<p>
-  advert-detail works!
-</p>
+<mat-card class="advert-container">
+  <app-carousel [images]="advert?.images"></app-carousel>
+  <app-advert-info [advert]="advert"></app-advert-info>
+</mat-card>

@@ -1,0 +1,29 @@
+:host {
+padding-left: 50px;
+}
+
+.advert-title {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.advert-owner {
+  display: flex;
+  margin-top: 15px;
+
+  .owner-username {
+    margin-left: 6px;
+    color: #00b3be;
+  }
+}
+
+.advert-price {
+  font-size: 32px;
+  color: #91d763;
+  margin-top: 15px;
+}
+
+.advert-description {
+  margin-top: 30px;
+}
+

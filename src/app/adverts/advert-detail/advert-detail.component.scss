@@ -1,0 +1,11 @@
+:host {
+  display: flex;
+  justify-content: center;
+  padding: 60px;
+}
+
+.advert-container {
+  flex-grow: 1;
+  display: flex;
+  max-width: 1200px;
+}

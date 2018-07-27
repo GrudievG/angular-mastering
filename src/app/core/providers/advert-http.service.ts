@@ -15,4 +15,11 @@ export class AdvertHttpService {
         retry(3)
       );
   }
+
+  getAdvertDetail(pk) {
+    return this.http.get(ApiConfig.adverts + '/' + pk)
+      .pipe(
+        retry(3)
+      );
+  }
 }

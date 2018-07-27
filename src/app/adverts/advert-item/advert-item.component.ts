@@ -11,7 +11,7 @@ export class AdvertItemComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.advert);
+    // console.log(this.advert);
   }
 
 }
